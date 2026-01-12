@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Little Light | Our Programs</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/icons/light.png" type="image/png">
+</head>
+<body>
+    <header>
+        <section class="header_1">
+            <div id="logo">
+                <span>
+                    <img src="assets/icons/logo.png" alt="">
+                </span>
+                <span>
+                    <h3>Little Light</h3>
+                </span>
+
+            </div>
+            <div id="nav">
+                <nav>
+                    <a href="index.html" >Home</a>
+                    <a href="about.html">About</a>
+                    <a href="programs.html" class="active_page">Our Programs</a>
+                    <a href="donate.html">Donate</a>
+                    <a href="contacts.html">Contact</a>
+                </nav>
+            </div>
+            <div class="nav_2" id="nav_2">
+                <div class="slashes" onclick="openMenue()">
+                    <div id="slash_1"></div>
+                    <div id="slash_2"></div>
+                    <div id="slash_3"></div>
+                </div>
+                <div class="nav">
+                    <nav>
+                        <a href="index.html">Home</a>
+                        <a href="about.html">About</a>
+                        <a href="programs.html" class="active_page">Our Programs</a>
+                        <a href="donate.html">Donate</a>
+                        <a href="contacts.html">Contact</a>
+                    </nav>
+                </div>
+            </div>
+        </section>
+        <section class="header_2">
+            <div class="dv_1">
+                <div id="headeder_bg">
+                    <h1>Our Programs</h1>
+                    <h3>Discover how Little Light creates sustainable 
+                        change through our comprehensive programs for children in need.
+                    </h3>
+                    <div id="donateBtn">
+                        <a href="donate.html">Donate Now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main>
+        <div class="programs_intro">
+            <div class="intro_btns">
+                <button onclick="getAllPrograms()">All Programs</button>
+                <button onclick="educationPrograms()">Education</button>
+                <button onclick="healthcarePrograms()">Healthcare</button>
+                <button onclick="shelterPrograms()">Shelter</button>
+                <button onclick="nutritionPrograms()">Nutrition</button>
+                <button onclick="emergencyReliefPrograms()">Emergency Relief</button>
+            </div>
+        </div>
+        <div class="programs">
+            <div class="cards">
+                <div class="card_1 program_card">
+                    <div class="img">
+                        <p>Education</p>
+                    </div>
+                    <div class="txt">
+                        <p id="hp">Education for All</p>
+                        <p id="p">
+                            Providing quality education, school supplies, scholarships, and learning resources to ensure 
+                            every child has access to education regardless of their circumstances.
+                        </p>
+                    </div>
+                    <div class="icons">
+                        <p><span><img src="assets/icons/color_grad_2.png" alt=""></span><span>15,000+ Children Educated</span></p>
+                        <p><span><img src="assets/icons/color_school_1.png" alt=""></span><span>45 Schools Supported</span></p>
+                    </div>
+                    <div class="lst">
+                        <span><img src="assets/icons/tick_2.png" alt="">School supplies distribution</span>
+                        <span><img src="assets/icons/tick_2.png" alt="">Scholarship programs</span>
+                        <span><img src="assets/icons/tick_2.png" alt="">After-school tutoring</span>
+                        <span><img src="assets/icons/tick_2.png" alt="">Digital literacy training</span>
+                    </div>
+                    <div class="btn">
+                        <a href="donate.html">Support Program</a>
+                    </div>
+                </div>
+                <div class="card_2 program_card">
+                    <div class="img">
+                        <p>Healthcare</p>
+                    </div>
+                    <div class="txt">
+                        <p id="hp">Healthy Childhoods</p>
+                        <p id="p">
+                            Medical checkups, vaccination campaigns, nutrition programs, 
+                            and healthcare services for children in underserved communities.
+                        </p>
+                    </div>
+                    <div class="icons">
+                        <p><span><img src="assets/icons/color_healthcare_1.png" alt=""></span><span>10,000+ Medical Services</span></p>
+                        <p><span><img src="assets/icons/color_vaccinatio_1.png" alt=""></span><span>50,000+ Vaccinations</span></p>
+                    </div>
+                    <div class="lst">
+                        <span><img src="assets/icons/tick_2.png" alt="">Mobile medical clinics</span>
+                        <span><img src="assets/icons/tick_2.png" alt="">Vaccination campaigns</span>
+                        <span><img src="assets/icons/tick_2.png" alt="">Dental care programs</span>
+                        <span><img src="assets/icons/tick_2.png" alt="">Vision screening</span>
+                    </div>
+                    <div class="btn">
+                        <a href="donate.html">Suport Program</a>
+                    </div>
+                </div>
+                <div class="card_3 program_card">
+                    <div class="img">
+                        <p>Shelter</p>
+                    </div>
+                    <div class="txt">
+                        <p id="hp">Safe Shelter Initiative</p>
+                        <p id="p">
+                            Creating safe residential facilities and community 
+                            spaces for homeless, orphaned, and at-risk children.
+                        </p>
+                    </div>
+                    <div class="icons">
+                        <p><span><img src="assets/icons/color_shelter_1.png" alt=""></span><span>1,200+ Shelter Spaces</span></p>
+                        <p><span><img src="assets/icons/color_support_2.png" alt=""></span><span>24/7 Care & Support</span></p>
+                    </div>
+                    <div class="lst">
+                        <span><img src="assets/icons/tick_2.png" alt="">Safe residential facilities</span>
+                        <span><img src="assets/icons/tick_2.png" alt="">Psychological support</span>
+                        <span><img src="assets/icons/tick_2.png" alt="">Life skills training</span>
+                        <span><img src="assets/icons/tick_2.png" alt="">Family reunification support</span>
+                    </div>
+                    <div class="btn">
+                        <a href="donate.html">Suport Program</a>
+                    </div>
+                </div>
+                <div class="card_4 program_card">
+                    <div class="img">
+                        <p>Nutrition</p>
+                    </div>
+                    <div class="txt">
+                        <p id="hp">Nutrition First</p>
+                        <p id="p">
+                            School feeding programs, nutrition education, 
+                            and supplemental food packages to combat childhood malnutrition.
+                        </p>
+                    </div>
+                    <div class="icons">
+                        <p><span><img src="assets/icons/color_food_1.png" alt=""></span><span>500,000+ Meals Served</span></p>
+                        <p><span><img src="assets/icons/color_food_2.png" alt=""></span><span>Daily School Meals</span></p>
+                    </div>
+                    <div class="lst">
+                        <span><img src="assets/icons/tick_2.png" alt="">School feeding programs</span>
+                        <span><img src="assets/icons/tick_2.png" alt="">Nutrition education</span>
+                        <span><img src="assets/icons/tick_2.png" alt="">Supplemental food packages</span>
+                        <span><img src="assets/icons/tick_2.png" alt="">Community gardens</span>
+                    </div>
+                    <div class="btn">
+                        <a href="donate.html">Suport Program</a>
+                    </div>
+                </div>
+                <div class="card_5 program_card">
+                    <div class="img">
+                        <p>Emergency Relief</p>
+                    </div>
+                    <div class="txt">
+                        <p id="hp">Emergency Response</p>
+                        <p id="p">
+                            Rapid response to natural disasters, conflicts, 
+                            and emergencies affecting children and families.
+                        </p>
+                    </div>
+                    <div class="icons">
+                        <p><span><img src="assets/icons/shield.png" alt=""></span><span>Rapid Response Teams</span></p>
+                        <p><span><img src="assets/icons/shield.png" alt=""></span><span>Child Protection Services</span></p>
+                    </div>
+                    <div class="lst">
+                        <span><img src="assets/icons/tick_2.png" alt="">Emergency food & supplies</span>
+                        <span><img src="assets/icons/tick_2.png" alt="">Temporary shelter</span>
+                        <span><img src="assets/icons/tick_2.png" alt="">Psychological first aid</span>
+                        <span><img src="assets/icons/tick_2.png" alt="">Family tracing services</span>
+                    </div>
+                    <div class="btn">
+                        <a href="donate.html">Suport Program</a>
+                    </div>
+                </div>
+                <div class="card_6 program_card">
+                    <div class="img">
+                        <p>Skills</p>
+                    </div>
+                    <div class="txt">
+                        <p id="hp">Youth Mentoring & Skills</p>
+                        <p id="p">
+                            Vocational training, life skills development, 
+                            and mentorship programs for adolescents and young adults.
+                        </p>
+                    </div>
+                    <div class="icons">
+                        <p><span><img src="assets/icons/color_skills_2.png" alt=""></span><span>3,000+ Youth Trained</span></p>
+                        <p><span><img src="assets/icons/color_skills_1.png" alt=""></span><span>85% Employment Rate</span></p>
+                    </div>
+                    <div class="lst">
+                        <span><img src="assets/icons/tick_2.png" alt="">Vocational training</span>
+                        <span><img src="assets/icons/tick_2.png" alt="">Career counseling</span>
+                        <span><img src="assets/icons/tick_2.png" alt="">Entrepreneurship support</span>
+                        <span><img src="assets/icons/tick_2.png" alt="">Mentorship programs</span>
+                    </div>
+                    <div class="btn">
+                        <a href="donate.html">Suport Program</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="impact_stories">
+            <div class="intro">
+                <h3>Impact Stories</h3>
+                <p>Real stories of transformation from children and families we've helped</p>
+            </div>
+            <div class="cards">
+                <div class="card_1 impact_story_card">
+                    <div class="img"></div>
+                    <div class="txt">
+                        <p id="hp">Maria's Journey</p>
+                        <p id="p">
+                            Maria was 8 when she had to drop out of school. 
+                            Through our Education program, she received a scholarship and is now a 
+                            straight-A student dreaming of becoming a doctor.
+                        </p>
+                    </div>
+                    <div class="indicator">
+                        <span>Education</span>
+                        <span>Success Story</span>
+                    </div>
+                    <div class="btn">
+                        <a href="donate.html">Help Others</a>
+                    </div>
+                </div>
+                <div class="card_2 impact_story_card">
+                    <div class="img"></div>
+                    <div class="txt">
+                        <p id="hp">Doe's Recovery</p>
+                        <p id="p">
+                            Severely malnourished at age 4, Jamal received life-saving 
+                            treatment through our Nutrition program. 
+                            Today, he's a healthy, active 7-year-old attending school.
+                        </p>
+                    </div>
+                    <div class="indicator">
+                        <span>Healthcare</span>
+                        <span>Nutrition</span>
+                    </div>
+                    <div class="btn">
+                        <a href="donate.html">Help Others</a>
+                    </div>
+                </div>
+                <div class="card_3 impact_story_card">
+                    <div class="img"></div>
+                    <div class="txt">
+                        <p id="hp">Joreen's New Home</p>
+                        <p id="p">
+                            After losing her family, Aisha found safety and care at our shelter. 
+                            She's now learning tailoring skills through our Youth Mentoring program.
+                        </p>
+                    </div>
+                    <div class="indicator">
+                        <span>Shelter</span>
+                        <span>Skills Training</span>
+                    </div>
+                    <div class="btn">
+                        <a href="donate.html">Help Others</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="our_story">
+            <div class="intro">
+                <h1>How We Work</h1>
+                <p>Our proven approach to creating sustainable impact</p>
+            </div>
+            <div class="bdy">
+                <div class="cards">
+                    <div class="card_1 card">
+                        <div class="circle">
+                            <span>1</span>
+                        </div>
+                        <div class="rect">
+                            <p>Needs Assessment</p>
+                            <p>
+                                We work with local communities to 
+                                identify their specific needs and challenges.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card_2 card">
+                        <div class="circle">
+                            <span>2</span>
+                        </div>
+                        <div class="rect">
+                            <p>Program Design</p>
+                            <p>
+                                We develop tailored solutions in partnership 
+                                with local experts and stakeholders.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card_3 card">
+                        <div class="circle">
+                            <span>3</span>
+                        </div>
+                        <div class="rect">
+                            <p>Implementation</p>
+                            <p>
+                                Local teams implement programs with 
+                                community participation and ownership.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card_4 card">
+                        <div class="circle">
+                            <span>4</span>
+                        </div>
+                        <div class="rect">
+                            <p>Monitoring & Evaluation</p>
+                            <p>
+                                We continuously measure impact and adjust programs for maximum effectiveness.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="funding">
+            <div class="cards">
+                <div class="card_1 fund_card">
+                    <div class="intro">
+                        <h3>Transparent Funding</h3>
+                        <p>
+                            We are committed to transparency in how we use donations. 
+                            90% of every dollar goes directly to program services.
+                        </p>
+                    </div>
+                    <div class="percent">
+                        <div>
+                            <p id="hp">90%</p>
+                            <p id="p">Program Services</p>
+                        </div>
+                        <div>
+                            <p id="hp">7%</p>
+                            <p id="p">Administration</p>
+                        </div>
+                        <div>
+                            <p id="hp">3%</p>
+                            <p id="p">Fundraising</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_2 fund_card">
+                    
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer_intro programs_footer_intro">
+            <div class="footer_intro_bg_dv">
+                <div class="footer_intro_dv">
+                    <h2>Join Our Mission</h2>
+                    <p>
+                        Become part of the Little Light family and help 
+                        us bring hope to children around the world.
+                    </p>
+                </div>
+                <div class="footer_intro_dv footer_intro_btns">
+                    <a href="donate.html"><button>Donate Now</button></a>
+                    <a href="contacts.html"><button>Become a Volunteer</button></a>
+                    <a href="contacts.html"><button>Patner With Us</button></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer_main">
+            <div class="footer_main_1">
+                <div class="footer_main_1_cards card_1">
+                    <div>
+                        <h3> <img src="assets/icons/light.png" alt="">Little Light</h3>
+                        <p>
+                            Bringing hope and opportunity to children in need since 2008. 
+                            Together, we can create a brighter future.
+                        </p>
+                    </div>
+                    <div class="media_icons">
+                        <a href="facebook.com"><img src="assets/icons/facebook _1.png" alt=""></a>
+                        <a href="facebook.com"><img src="assets/icons/x_1.png" alt=""></a>
+                        <a href="facebook.com"><img src="assets/icons/instagram _1.png" alt=""></a>
+                        <a href="facebook.com"><img src="assets/icons/tiktok_1.png" alt=""></a>
+                        <a href="facebook.com"><img src="assets/icons/whatsapp_1.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="footer_main_1_cards card_2">
+                    <h4>Quick Links</h4>
+                    <span><a href="index.html">Home</a></span>
+                    <span><a href="about.html">About Us</a></span>
+                    <span><a href="programs.html">Our Programs</a></span>
+                    <span><a href="donate.html">Donate</a></span>
+                    <span><a href="contacts.html">Contact Us</a></span>
+                </div>
+                <div class="footer_main_1_cards card_2">
+                    <h4>Our Programs</h4>
+                    <span><a href="programs.html">Education Support</a></span>
+                    <span><a href="programs.html">Healthcare Access</a></span>
+                    <span><a href="programs.html">Safe Shelter</a></span>
+                    <span><a href="programs.html">Nutrition Program</a></span>
+                    <span><a href="programs.html">Youth Mentoring</a></span>
+                </div>
+                <div class="footer_main_1_cards card_3">
+                        <h4>Contact Info</h4>
+                        <span><img src="assets/icons/location_1.png" alt=""> <code id="footer_card_3_txt">Kakooge, Nakasongola</code></span>
+                        <span><img src="assets/icons/phone_1.png" alt=""><code id="footer_card_3_txt">(+256) 750-665-351</code></span>
+                        <span><img src="assets/icons/mail_1.png" alt=""><code id="footer_card_3_txt">info@littlelight.org</code></span>
+                        <span id="emailSpan"><input type="text" placeholder="Your Email"><img src="assets/icons/send_1.png" id="send_icon" alt=""></span> 
+                </div>
+            </div>
+        </div>
+        <div class="footer_main_2">
+                <p>&copy; 2023 Little Light Charity. All rights reserved. | Privacy Policy | Terms of Service</p>
+        </div>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
